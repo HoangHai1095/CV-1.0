@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="lib/angular.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="background-main" ng-app="MyProfile">
+        <!-- header-panner -->
+                <div id="header-banner">
+                <div class="wrapper row">
+                    <div class="col-md-1"></div>
+
+                    <a class="banner-logo-container guest col-md-6" href="http://www.linkedin.com/">
+                        <h2 id="li-logo" class="logo">LinkedIn Home</h2>
+                    </a>
+                   
+                    <nav role="navigation" class="nav guest-nav col-md-4" aria-label="Main site navigation" style="float: left; text-align: center;">
+                        <ul role="menubar">
+                            <li role="menuitem" class="nav-item">
+                                <a class="nav-link" href="http://www.linkedin.com/static?key=what_is_linkedin&amp;trk=hb_what">
+                                    What is LinkedIn?
+                                </a>
+                            </li>
+                            <li role="menuitem" class="nav-item">
+                                <a rel="nofollow" class="nav-link" href="/start/join?trk=hb_join">
+                                    Join Today
+                                </a>
+                            </li>
+                            <li role="menuitem" class="nav-item">
+                                  <a rel="nofollow" class="nav-link" href="https://www.linkedin.com/uas/login?goback=&amp;trk=hb_signin">Sign In</a>
+                             </li>
+                         </ul>
+                    </nav>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        <!-- body-code -->
+        <div id="layout-main" ng-controller="ExampleController">
+            <div class="row" id="content-cv">
+                <div id="" class="col-md-8 col-md-offset-2">
+
+                    <section id="topcard" class="profile-section" style="margin-top: 60px;">
+                    	<div class="profile-card vcard row">
+	                    	<div class="profile-picture col-md-4">
+                                <a href="{{profile.href}}">
+                                    <img src="{{profile.src}}">
+                                </a>
+	                    	</div>
+
+	                    	<div class="profile-overview col-md-8">
+                                <div class="profile-overview-content">
+                                    <h1 id="name" class="fn">{{profile_overview.fullname}}</h1>
+                                    <p class="headline title" data-section="headline">{{profile_overview.job}}</p>
+                                    <dl id="demographics">
+                                        <dt>Location</dt>
+                                        <dd class="descriptor adr"><span class="locality">VietNam</span></dd>
+                                        <dt>Industry</dt>
+                                        <dd class="descriptor">Internet</dd>
+                                    </dl>
+                                    <div class="extra-info">
+                                      <table class="table table-striped">
+                                            <tbody>
+                                              <tr>
+                                                <td>{{extra_info[0].name}}</td>
+                                                <td>{{extra_info[0].content}}</td>
+                                              </tr>
+                                             <tr>
+                                                <td>{{extra_info[1].name}}</td>
+                                                <td>{{extra_info[1].content}}</td>
+                                              </tr>
+                                               <tr>
+                                                <td>{{extra_info[2].name}}</td>
+                                                <td>{{extra_info[2].content}}</td>
+                                              </tr>
+                                             
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                    <a href="https://www.linkedin.com/today/influencers?trk=inf_bdg_profile" title="Jeff is an Influencer" class="influencer-badge">Influencer</a>
+                                </div>
+	                    	</div>
+                    		
+                    	</div>
+                    	<div class="reg-upsell">
+                    		<h2>Join LinkedIn and access {{profile_overview.name}}’s full profile. It’s free!</h2>
+                    		<h3>As a LinkedIn member, you’ll join 400 million other professionals who are sharing connections, ideas, and opportunities.</h3>
+                    		<ul>
+                                <li>{{aboutme[0].name}}: {{aboutme[0].content}}</li>
+                                <li>{{aboutme[1].name}}: {{aboutme[1].content}}</li>
+                    			<li>{{aboutme[2].name}}: {{aboutme[2].content}}</li>
+                			</ul>
+                			<a href="https://www.linkedin.com/start/view-full-profile?_ed=0_bKBkcZ6t9p27QdIgoeLUuXkzX1gSSl_qdqwwJvSV0YG4ygi9WuSZ6sgPiZqmtjjZ&amp;trk=pprof-0-ts-view_full-0" class="signup-button">View {{profile_overview.name}}'s Full Profile</a>
+            			</div>
+                    </section>
+
+                    <section id="summary" class="profile-section">
+                        <h3 class="title">Summary:</h3>
+                        <div class="description">
+                            {{description.content1}}<br><br> {{description.content2}}<br><br> {{description.content3}}<br><br> {{description.content4}}<br><br> {{description.content5}}
+                        </div>
+                    </section>
+                    <section id ="experience" class="profile-section">
+                    <h3 class="title">Experience</h3>
+                    <ul>
+                            <li class="position">
+                                <header class="logo">
+                                    <a href={{position[0].href}}><img class="lazy-loaded" alt="LinkedIn" src={{position[0].logo_img}}></a>
+                                </header>
+                                <h4 class="item-title"><a href={{position[0].href_title}}>{{position[0].title_name}}</a></h4>
+                                <h5 class="item-subtitle"><a href={{position[0].href}}>{{position[0].subtitle_name}}</a></h5>
+                                <span class="date-range">{{position[0].date_range}}</span>
+                            </li>
+
+                          <li class="position reg-upsell">
+                                <header class="logo">
+                                    <a href={{position[1].href}}><img class="lazy-loaded" alt="LinkedIn" src={{position[1].logo_img}}></a>
+                                </header>
+                                <h4 class="item-title"><a href={{position[1].href_title}}>{{position[1].title_name}}</a></h4>
+                                <h5 class="item-subtitle"><a href={{position[0].href}}>{{position[1].subtitle_name}}</a></h5>
+                                <span class="date-range">{{position[1].date_range}}</span>
+
+                            </li>
+                            <li class="position reg-upsell">
+                                <header class="logo">
+                                    <a href={{position[1].href}}><img class="lazy-loaded" alt="LinkedIn" src={{position[2].logo_img}}></a>
+                                </header>
+                                <h4 class="item-title"><a href={{position[1].href_title}}>{{position[1].title_name}}</a></h4>
+                                <h5 class="item-subtitle"><a href={{position[0].href}}>{{position[2].subtitle_name}}</a></h5>
+                                <span class="date-range">{{position[2].date_range}}</span>
+
+                            </li>
+                            <li class="position reg-upsell">
+                                <header class="logo">
+                                    <a href={{position[1].href}}><img class="lazy-loaded" alt="LinkedIn" src={{position[3].logo_img}}></a>
+                                </header>
+                                <h4 class="item-title"><a href={{position[1].href_title}}>{{position[1].title_name}}</a></h4>
+                                <h5 class="item-subtitle"><a href={{position[0].href}}>{{position[3].subtitle_name}}</a></h5>
+                                <span class="date-range">{{position[3].date_range}}</span>
+
+                            </li>
+                        </ul>
+                    </section>
+                     <section id ="skill" class="profile-section">
+                        <h3 class="title">Experience</h3>
+                        <ul class="skill">
+                             <li><a href="https://www.linkedin.com/topic/product-development?trk=pprofile_topic" title="Product Development"><span class="wrap">Product Development</span></a></li>
+                             <li><a href="https://www.linkedin.com/topic/product-development?trk=pprofile_topic" title="Product Development"><span class="wrap">Product Development</span></a></li>
+                        </ul>
+                    </section>
+
+                </div>
+
+              
+            </div>
+            
+        </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js.js"></script>
+
+  </body>
+
+</html>
