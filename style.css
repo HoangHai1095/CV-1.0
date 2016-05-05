@@ -1,7 +1,11 @@
 .background-main{
 	background-color: #dfdfdf;
 }
-
+.edit_background{
+    width: 100%;
+    height: 350px;
+    position: fixed;
+}
 /*<header-banner>*/
 	#header-banner{
 	    position: fixed;
@@ -17,7 +21,7 @@
 	    -webkit-box-shadow: 0 0 10px #333;
 	    -moz-box-shadow: 0 0 10px #333;
 	    box-shadow: 0 0 10px #333;
-	    height: 42px;
+	    height: 41px;
 	}
 
 	/*Logo of header*/
@@ -27,14 +31,14 @@
 	    overflow: hidden;
 	    text-align: left;
 	    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAVCAMAAAATpBLwAAAAaVBMVEX///////////////////////////////8Ad7X///////////////////8Ad7X///////////////////////////////8Ad7XA3e3Q5vGgzOMwkcOAu9pws9ZgqtGQxN8QgLrw9/sgiL405m/gAAAAFnRSTlMAEFnw0GAwQPAgoC1wsDCAwJBQQ+AWWM38wAAAAVBJREFUeF7F1YlugzAMBmA7Fw2FQrvN6Xls7/+Qs9MFptLVqlppP1L0S4hPHAbgySxm6TqzBbwqjE/5l+npVkaAiH4aOnIoZbqvZLozpfOGNmddb7g2j+sHLgdd91z94/qRy1HXYdkv4XE9ndanpOuSOzpWVRzrqEtUvVSiFltuy6IHS+QAa+K4ILZU6wediyzr3Zrb9qzo9E6S7qJHwREt5dggo5VzrdMnSbaa/gPlLpaNUMslYc+rVOurxl7rJZreATSlCx4A2EIAFNFeJquZ6PuU9rpOESCWzvHCDsFywET/Smk36HNjzPymXno5d/yl27/1VHoSnA3mFV0mps93JrIVQlYbrv6ubsC8GV6p5LaelU4epYuwsg6hFb7yVtPNh66DwLQaxrCT+c/RdNl0/TKTWGevRoDQl7dJv+96xtc/jFX7vueZ+cd/0/P/1W+1/0p3tJnXDAAAAABJRU5ErkJggg==') no-repeat 0 0;
-	    height: 21px;
-	    width: 93px;
+	    height: 20px;
+	    width: 92px;
 	}
 
 	.global-header.wrapper {
 	    margin-left: auto;
 	    margin-right: auto;
-	    width: 974px;
+	    width: 975px;
 	    position: relative;
 	}
 	#header-banner li{
@@ -49,7 +53,7 @@
 	}
 	#header-banner a:hover{
 		color:blue;
-		line-height: 46px;
+		line-height: 45px;
 		height: 40px;
 	}
 	#header-banner a:focus{
@@ -61,14 +65,18 @@
 
 #content-cv{
 	margin-top: 20px;
+    
 }
 #profile{
 	padding-top: 40px;
+
 }
 .profile-section{
 	margin-top: 2px;
-	background-color: #ffffff;
-	box-shadow: 1px 3px 15px #565957;
+    background-color:rgba(255, 255, 255, 0.8);
+	/*background-color: #ffffff;*/
+
+	box-shadow: 6px 7px 8px #565957;
 }
 .profile-picture {
 	padding:20px 20px 20px 20px;
@@ -77,6 +85,10 @@
 	vertical-align: middle;
 	height: 200px;
 	width: 200px;
+}
+#topcard{
+    margin-top: 60px;
+    padding:30px 30px 30px 30px;
 }
 #topcard #name {
     font-size: 26px;
@@ -149,7 +161,7 @@
 /*reg-upsell*/
 .reg-upsell {
     border-top: 1px solid #ddd;
-    padding: 25px 40px 20px;
+    padding: 25px 40px 30px;
 }
 
 .reg-upsell h2 {
@@ -221,6 +233,10 @@ h3{
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
+.profile-section{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
 .profile-section .title {
     font-size: 20px;
     text-shadow: 5px 5px 8px black;
@@ -229,13 +245,25 @@ h3{
     color: #434649;
     padding: 30px 35px 0;
 }
-
-#summary .description {
-    padding: 15px 35px 30px;
+textarea{
+    width: 80%;
+    height: 100px;
 }
+
+.description {
+     white-space: pre-line;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-left: 30px;
+     margin-right: 30px;
+     border-left: 30px solid rgba(255, 0, 0, .2);
+     border-right: 30px solid rgba(255, 0, 0, .2);
+
+}
+
 .profile-section .description {
     font-size: 13px;
-    line-height: 17px;
+    line-height: 27px;
     color: #333;
     font-weight: normal;
     margin-top: 15px;
@@ -275,12 +303,12 @@ ul{
 .skill li{
     text-align: center;
     display: inline-block;
-    list-style-type: circle;
+    list-style-type: none;
     background-color: #CFCDD6;
     line-height: 40px;
-    width: auto;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin:10px 10px 10px 10px;
 }
 .skill li:hover{
     background-color: #226B96;
@@ -290,3 +318,20 @@ ul{
 }
 
 
+
+/*fooother*/
+#foother{
+    margin-top: 10px;
+    line-height: 120px;
+    position: absolute;
+    width: 100%;
+    background-color: #4A4846;
+    color:#ffffff;
+}
+#foother ul{
+    text-align: center;
+}
+#foother li{
+    display: inline-block;
+    margin-right: 100px
+}
