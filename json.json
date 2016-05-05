@@ -1,0 +1,157 @@
+{
+    "information_me":{
+                    "contents":[
+                        {
+                            "name": "Email",
+                            "content":"thhai1312172@gmail.com"
+                        },
+                        {
+                            "name": "Phone",
+                            "content":"01219960092"
+                        },
+                        {
+                            "name": "Address",
+                            "content":"277/23 Trường Chinh F.14 Q.Tân Bình, Tp. Hồ Chí Minh"
+                        }
+                    ]},
+    "education":{
+                    "name":"Education",
+                    "contents":[
+                       {"content":"University of Science"},
+                       {"content":"University of Science, một trường đại học thành viên thuộc Đại học Quốc gia Thành phố Hồ Chí Minh. Trường được thành lập tháng 3 năm 1996 trên cơ sở tách ra từ Trường Đai học Tổng hợp Thành phố Hồ Chí Minh, kế thừa truyền thống 20 năm của Trường Đại học Tổng hợp Thành phố Hồ Chí Minh với nhiệm vụ chính trị là đào tạo đội ngũ cán bộ khoa học cơ bản, tổ chức các hoạt động nghiên cứu khoa học và phát triển công nghệ, phục vụ đắc lực cho công cuộc xây dựng và bảo vệ tổ quốc. Trường là cơ sở đào tạo và nghiên cứu khoa học cơ bản đầu ngành của các tỉnh phía Nam."}
+                    ]
+                },
+    "history_me":{"contents":[               
+                    {
+                        "name":"current",
+                         "content":"Student of University of Science"
+                     },
+                     {
+                         "name":"previous",
+                         "content":"Student of Phú Nhuận Highschool"
+                    },
+                     {
+                            "name":"Education",
+                         "content": "Student of University of Science"
+                     }
+                ]},
+    "header_banner":{
+                        "name":"header-banner",
+                        "contents":[
+                                    {"content":"LinkedIn Home",
+                                        "href":"http://www.linkedin.com/"},
+                                   { "content":"What is LinkedIn?",
+                                       "href":"http://www.linkedin.com/static?key=what_is_linkedin&amp;trk=hb_what/"},
+                                    {"content":"Join Today",
+                                        "href":"http://start/join?trk=hb_join"},
+                                    {"content":"Sign In",
+                                        "href":"https://www.linkedin.com/uas/login?goback=&amp;trk=hb_signin/"}
+                                ]
+
+                    },
+    "experience":{
+            "name":"experience",
+            "contents":[
+                    {
+                        "href":"https://www.linkedin.com/company/linkedin?trk=ppro_cprof",
+                        "logo_img":"https://media.licdn.com/media/AAEAAQAAAAAAAAL0AAAAJGMwYWZhNTYxLWJkMTktNDAzMi05NzEzLTlhNzUxMGU0NDg0Mw.png",
+                        "title_href":"https://www.linkedin.com/title/ceo?trk=pprofile_title",
+                        "title_name":"CEO",
+                        "subtitle_name":"LinkedIn",
+                        "date_range":"December 2008 – Present (7 years 5 months)"
+                    },
+                       {
+                        "href":"https://www.linkedin.com/company/linkedin?trk=ppro_cprof",
+                        "logo_img":"https://media.licdn.com/media/p/2/000/205/177/3cfd5b9.png",
+                        "title_href":"https://www.linkedin.com/title/ceo?trk=pprofile_title",
+                        "title_name":"Member, Board of Directors",
+                        "subtitle_name":"Intuit",
+                        "date_range":"April 2012 – Present (4 years 1 month)"
+                    },
+                    {
+                       "href":"https://www.linkedin.com/company/linkedin?trk=ppro_cprof",
+                        "logo_img":"https://media.licdn.com/media/AAEAAQAAAAAAAAIEAAAAJGFhNGYyNjBjLWUxOWItNDRlYi05MTY0LTE5ZDA3YThhMTRkYg.png",
+                        "title_href":"https://www.linkedin.com/title/ceo?trk=pprofile_title",
+                        "title_name":"Member, Board of Directors",
+                        "subtitle_name":"DonorsChoose",
+                        "date_range":"2007 – Present (9 years)"
+                    },
+                     {
+                        "href":"https://www.linkedin.com/company/linkedin?trk=ppro_cprof",
+                        "logo_img":" https://media.licdn.com/media/p/5/005/00c/1bf/134d5ca.png",
+                        "title_href":"https://www.linkedin.com/title/ceo?trk=pprofile_title",
+                        "title_name":"Member, Board of Directors",
+                        "subtitle_name":"Boys & Girls Clubs of the Peninsula",
+                        "date_range":"2011 – Present (5 years)San Francisco Bay Area"
+                    }
+                ]
+        },
+    "avatar":
+            {
+                "src":"https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-0/p206x206/10151783_1442375592674248_4133943304762756755_n.jpg?oh=0f22c7e1094a7f6f8b961b462c95ce62&oe=57AB4789&__gda__=1471181757_43da64f3760c1713fcf53535c6d49f4d",
+                "href":"https://www.facebook.com/be.bu.98"
+                },
+    "introduce":
+                {
+                    "name":"Hải Tô",
+                    "fullname":"Tô Hoàng Hải",
+                    "job":"Student"
+                },
+    "project":{
+                    "name":"Project",
+                    "contents":
+                    [
+                        {"content":"Thời gian: 05/05/2016"},
+                        {"content":"Frame: Bootstrap, AngularJs"},
+                        {"content":"Mức độ hoàn thành: 100%"}
+                    ]
+                },
+         "skill":{
+                    "name":"Skill",
+                    "contents":[   
+                        {
+                            "name":"Product Development",
+                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
+                            "title":"Product Development"
+                        },
+                         {
+                            "name":"Corporate Development",
+                            "href":"https://www.linkedin.com/topic/corporate-development?trk=pprofile_topic",
+                            "title":"Corporate Development"
+                        },
+                         {
+                            "name":"Product Marketing",
+                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
+                            "title":"Product Marketing"
+                        },
+                         {
+                            "name":"LinkedLn",
+                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
+                            "title":"LinkedLn"
+                        },
+                         {
+                            "name":"Team Leadership",
+                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
+                            "title":"Team Leadership"
+                        },
+                         {
+                            "name":"Education",
+                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
+                            "title":"Education"
+                        }
+                    ]
+
+
+         },
+        "summary":{
+                    "name":"Summary",
+                    "contents":[
+                        {"content":"Introduce: I am  third-year student of University of Science, my majored subject is Information Technology."},
+                        {"content":"Hobby: Reading, League of Legends, Traveling around VietNam , Asean and around the world."},
+                        {"content":"Vision: Be a IOS developer in gaming production,work for RIOT"},
+                        {"content":"Maxim: Be the one you want to be."},
+                        {"content":"Contact Information: Tô Hoàng Hải Phone:01219960092 Email:thhai1312172@gmail.com"}
+                    ]
+                }
+}
+
