@@ -17,7 +17,7 @@
     "education":{
                     "name":"Education",
                     "contents":[
-                       {"content":"University of Science"},
+                       {"content":"University of Science","href":"http://www.hcmus.edu.vn/"},
                        {"content":"University of Science, một trường đại học thành viên thuộc Đại học Quốc gia Thành phố Hồ Chí Minh. Trường được thành lập tháng 3 năm 1996 trên cơ sở tách ra từ Trường Đai học Tổng hợp Thành phố Hồ Chí Minh, kế thừa truyền thống 20 năm của Trường Đại học Tổng hợp Thành phố Hồ Chí Minh với nhiệm vụ chính trị là đào tạo đội ngũ cán bộ khoa học cơ bản, tổ chức các hoạt động nghiên cứu khoa học và phát triển công nghệ, phục vụ đắc lực cho công cuộc xây dựng và bảo vệ tổ quốc. Trường là cơ sở đào tạo và nghiên cứu khoa học cơ bản đầu ngành của các tỉnh phía Nam."}
                     ]
                 },
@@ -41,11 +41,11 @@
                                     {"content":"LinkedIn Home",
                                         "href":"http://www.linkedin.com/"},
                                    { "content":"What is LinkedIn?",
-                                       "href":"http://www.linkedin.com/static?key=what_is_linkedin&amp;trk=hb_what/"},
+                                       "href":"https://www.linkedin.com/static?key=what_is_linkedin&trk=hb_what"},
                                     {"content":"Join Today",
-                                        "href":"http://start/join?trk=hb_join"},
+                                        "href":"https://www.linkedin.com/start/join?trk=hb_join"},
                                     {"content":"Sign In",
-                                        "href":"https://www.linkedin.com/uas/login?goback=&amp;trk=hb_signin/"}
+                                        "href":"https://www.linkedin.com/uas/login?goback=&trk=hb_signin"}
                                 ]
 
                     },
@@ -121,24 +121,16 @@
                         },
                          {
                             "name":"Product Marketing",
-                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
+                            "href":"https://www.linkedin.com/topic/product-marketing?trk=pprofile_topic",
                             "title":"Product Marketing"
                         },
-                         {
-                            "name":"LinkedLn",
-                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
-                            "title":"LinkedLn"
-                        },
+                         
                          {
                             "name":"Team Leadership",
-                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
+                            "href":"https://www.linkedin.com/topic/team-ledership?trk=pprofile_topic",
                             "title":"Team Leadership"
-                        },
-                         {
-                            "name":"Education",
-                            "href":"https://www.linkedin.com/topic/product-development?trk=pprofile_topic",
-                            "title":"Education"
                         }
+                         
                     ]
 
 
